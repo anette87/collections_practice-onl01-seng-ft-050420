@@ -18,8 +18,8 @@ def reverse_array(arr)
   arr.reverse
 end
 
-def kesha_maker(arr) 
-   arr.each do |word|
-  return word[2].replace("$")
-   end
-end 
+def kesha_maker(array)
+  array.each do |word|
+    word[2] = "$"
+  end
+end
